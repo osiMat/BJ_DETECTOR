@@ -21,24 +21,24 @@ Aby uruchomić projekt, wykonaj następujące kroki:
    cd BJ_DETECTOR
 
 2. zainstaluj wymagane zależności:
-   pip install torch opencv-python requests
+   ```pip install torch opencv-python requests
 
 ##Użycie
 Aby uruchomić detektor kart, wykonaj skrypt blackjack_detector.py. Upewnij się, że podajesz poprawny URL kamery i ścieżkę do modelu YOLOv5. Model możesz pobrać za pomocą linku w folderze 'models'
 
-from blackjack_detector import BlackjackDetector
+   ```from blackjack_detector import BlackjackDetector
 
-# URL modelu (może być lokalny lub zdalny)
-model_url = 'path_to_your_model/best.pt'
+   # URL modelu (może być lokalny lub zdalny)
+   model_url = 'path_to_your_model/best.pt'
 
-# URL kamery
-camera_url = 'your_camera_url'
+   # URL kamery
+   camera_url = 'your_camera_url'
 
-# Tworzenie instancji detektora
-detector = BlackjackDetector(model_url, camera_url)
+   # Tworzenie instancji detektora
+   detector = BlackjackDetector(model_url, camera_url)
 
-# Uruchomienie detekcji
-detector.run_detection()
+   # Uruchomienie detekcji
+   detector.run_detection()
 
 ##Konfiguracja
 - Możesz dostosować ROI (Regiony Zainteresowania) dla każdego z graczy i krupiera w metodzie setup_roi.
