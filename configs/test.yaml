@@ -1,0 +1,11 @@
+
+path: /content/drive/MyDrive/card_detector  # ścieżka do katalogu nadrzędnego
+train: /content/drive/MyDrive/card_detector/images/train 
+val: /content/drive/MyDrive/card_detector/images/val
+test: images/test  # ścieżka do obrazów testowych
+nc: 39
+
+img_size: 1024  # Zwiększony rozmiar wejściowy obrazu
+
+# Nazwy klas
+names: ['k', 'kg', 'kd', 'q', 'qg', 'qd', 'j', 'jg', 'jd', '10', '10g', '10d', '9', '9g', '9d', '8', '8g', '8d', '7', '7g', '7d', '6', '6g', '6d', '5', '5g', '5d', '4', '4g', '4d', '3', '3g', '3d', '2', '2g', '2d', 'a', 'ag', 'ad']

@@ -1,0 +1,24 @@
+# Ścieżki do danych
+train: /content/drive/MyDrive/card_detector/images/train
+val: /content/drive/MyDrive/card_detector/images/val
+
+# Liczba klas
+nc: 39
+
+img_size: 1024  # Zwiększony rozmiar wejściowy obrazu
+
+# Nazwy klas
+names: ['k', 'kg', 'kd', 'q', 'qg', 'qd', 'j', 'jg', 'jd', '10', '10g', '10d', '9', '9g', '9d', '8', '8g', '8d', '7', '7g', '7d', '6', '6g', '6d', '5', '5g', '5d', '4', '4g', '4d', '3', '3g', '3d', '2', '2g', '2d', 'a', 'ag', 'ad']
+
+mosaic: 1.0  # Stosowanie mieszania obrazów (mosaic augmentation)
+mixup: 0.2  # Stosowanie mieszania obrazów z innego zestawu danych (mixup augmentation)
+hsv_h: 0.015  # Zakres zmiany odcienia (hue)
+hsv_s: 0.7  # Zakres zmiany nasycenia (saturation)
+hsv_v: 0.4  # Zakres zmiany wartości (value)
+degrees: 0.0  # Zakres rotacji obrazu
+translate: 0.1  # Zakres przesunięcia obrazu w pionie i poziomie
+scale: 0.5  # Zakres przeskalowania obrazu
+shear: 0.0  # Zakres pochylenia obrazu
+perspective: 0.0  # Zakres zmiany perspektywy
+flipud: 0.0  # Prawdopodobieństwo odbicia obrazu w pionie
+fliplr: 0.5  # Prawdopodobieństwo odbicia obrazu w poziomie
