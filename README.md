@@ -25,7 +25,6 @@ Aby uruchomić projekt, wykonaj następujące kroki:
 
 ##Użycie
 Aby uruchomić detektor kart, wykonaj skrypt blackjack_detector.py. Upewnij się, że podajesz poprawny URL kamery i ścieżkę do modelu YOLOv5. Model możesz pobrać za pomocą linku w folderze 'models'
-
    ```from blackjack_detector import BlackjackDetector
 
    # URL modelu (może być lokalny lub zdalny)
@@ -39,6 +38,7 @@ Aby uruchomić detektor kart, wykonaj skrypt blackjack_detector.py. Upewnij się
 
    # Uruchomienie detekcji
    detector.run_detection()
+
 
 ##Konfiguracja
 - Możesz dostosować ROI (Regiony Zainteresowania) dla każdego z graczy i krupiera w metodzie setup_roi.
