@@ -45,3 +45,10 @@ Aby uruchomić detektor kart, wykonaj skrypt blackjack_detector.py. Upewnij się
 - Zmodyfikuj model_url i camera_url w skrypcie blackjack_detector.py zgodnie z Twoim środowiskiem i potrzebami.
 - Model został stworzony w specyficznie ustalonych warunkach (pozycja kamery, oświetlenie, konkretna talia kart). W innych warunkach model może nie otrzymywać rządanych rezultatów.
 
+## Licencja
+
+Projekt "Blackjack Detector" jest udostępniony na licencji MIT. Oznacza to, że możesz używać, kopiować, modyfikować, łączyć, publikować, dystrybuować, sublicencjonować i/lub sprzedawać kopie oprogramowania, pod warunkiem dołączenia powyższej informacji o prawach autorskich i niniejszego zapisu o licencji we wszystkich kopiach lub istotnych częściach oprogramowania.
+
+Pełny tekst licencji znajdziesz w pliku `LICENSE` dołączonym do tego projektu.
+
+
