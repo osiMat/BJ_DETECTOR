@@ -176,7 +176,7 @@
     "        for player, result in players_scores.items():\n",
     "            print(f\"{player.capitalize()}: {result}\")\n",
     "\n",
-    "detector = BlackjackDetector('https://github.com/osiMat/BJ_DETECTOR/raw/main/models/best.pt', 'http://192.168.8.100:4747/video')\n",
+    "detector = BlackjackDetector('path/to/model/best.pt', 'http://fill/url/video')\n",
     "detector.run_detection()"
    ]
   }
